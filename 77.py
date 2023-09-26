@@ -159,12 +159,12 @@ class Instagram:
         dpi = ['133','320','515','160','640','240','120','800','480','225','768','216','1024']
         i_version = ['114.0.0.20.2','114.0.0.38.120','114.0.0.20.70','114.0.0.28.120','114.0.0.0.24','114.0.0.0.41']
         pxl_phone = ['623x1280','700x1245','800x1280','1080x2340','1320x2400','1242x2688']
-        UserAgents1 = f"Mozilla/5.0 (Linux; Android 10; SM-G973F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36 Instagram 166.1.0.42.245 Android (29/10; 420dpi; 1080x2042; samsung; SM-G973F; beyond1; exynos9820; en_GB; 256099204)"
-        UserAgents2 = f"Mobile Safari/537.36 Instagram 298.0.0.31.110 Android (30/11; 480dpi; 1080x2064; SHARP/SG; A003SH; JeridB; qcom; ja_JP; 510206479)"
-        UserAgents3 = f"Instagram 247.0.0.17.113 Android (31/12; 480dpi; 1080x2141; vivo; vivo 1907; 1907; mt6768; ru_RU; 388829083)"
-        UserAgents4 = f"Instagram 187.0.0.32.120 Android (30/11; 480dpi; 1080x2161; OPPO; CPH2109; OP4BA5L1; qcom; ru_RU; 289692198)"
-        UserAgents5 = f"Instagram 17.0.0.5.91 Android (29/10; 768dpi; 1080x2264; realme; SM-A716U; RE54ABL1; qcom; in_ID)"
-        UserAgents6 = f"Mozilla/5.0 (Linux; Android 11; RMX3201 Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36 Instagram 215.0.0.27.359 Android (30/11; 320dpi; 720x1448; realme; RMX3201; RMX3201; mt6765; ru_RU; 337202351)"
+        UserAgents1 = f"Mozilla/5.0 (Linux; Android 11; RMX3201 Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36 Instagram 215.0.0.27.359 Android (30/11; 320dpi; 720x1448; realme; RMX3201; RMX3201; mt6765; ru_RU; 337202351)"
+        UserAgents2 = f"Mozilla/5.0 (Linux; Android 11; Infinix X657B Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/93.0.4577.62 Mobile Safari/537.36 Instagram 218.0.0.19.108 Android (30/11; 320dpi; 720x1432; INFINIX MOBILITY LIMITED/Infinix; Infinix X657B; Infinix-X657B; mt6761; in_ID; 345526700)"
+        UserAgents3 = f"Mozilla/5.0 (Linux; Android 10; RMX1851 Build/QKQ1.190918.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36 Instagram 145.0.0.32.119 Android (29/10; 480dpi; 1080x2264; Realme; RMX1851; RMX1851; qcom; en_US; 219308759)"
+        UserAgents4 = f"Mozilla/5.0 (Linux; Android 11; CPH2109 Build/RKQ1.200903.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.210 Mobile Safari/537.36 Instagram 187.0.0.32.120 Android (30/11; 480dpi; 1080x2161; OPPO; CPH2109; OP4BA5L1; qcom; ru_RU; 289692198)"
+        UserAgents5 = f"Instagram {str(rc(i_version))} Android (23/{str(rr(9,12))}; {str(rc(dpi))}dpi; {str(rc(pxl_phone))}; vivo; vivo Xplay5S; PD1516A; qcom; ru; 99640911)"
+        UserAgents6 = f"iPhone13,4(iOS/14.8.1) AliApp(AliExpress/8.51.0) Weex/0.28.0 vercode/316 1284x2778"
         ugent = str(rc([UserAgents1, UserAgents2, UserAgents3, UserAgents4, UserAgents5, UserAgents6]))
         ugentku.append(ugent)
     
